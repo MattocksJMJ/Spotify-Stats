@@ -1,0 +1,23 @@
+{
+  "country": "GB",
+  "display_name": null,
+  "external_urls": {
+    "spotify": "https://open.spotify.com/user/jamie_the_king"
+  },
+  "followers": {
+    "href": null,
+    "total": 2
+  },
+  "href": "https://api.spotify.com/v1/users/jamie_the_king",
+  "id": "jamie_the_king",
+  "images": [
+    {
+      "height": null,
+      "url": "https://profile-images.scdn.co/images/userprofile/default/a08ba181fd3a3576b9064d6432df04e89ae43892",
+      "width": null
+    }
+  ],
+  "product": "premium",
+  "type": "user",
+  "uri": "spotify:user:jamie_the_king"
+}

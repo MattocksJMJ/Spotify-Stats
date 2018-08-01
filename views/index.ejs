@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Spotify Stats</title>
+  <link rel='icon' href='/images/spotify_icon.png'>
+  <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'>
+  <link rel='stylesheet' type='text/css' href='/stylesheets/page2.css'>
+</head>
+<body>
+  <div id='logInScreenDiv' style='display:block;'>
+    <h1> PLEASE LOG IN  </h1>
+    <form action='/login' method="get">
+      <input type="submit" id="clickMe" name="username" value="Log In" onclick="logInF()">
+    </form>
+  </div>
+  <div id='loggedInScreenDiv' style="display:none;height:100%;">
+    <div>
+      <h1> Spotify Stats </h1>
+      <a target="_blank" id='userNameBox' class='output' readonly>ID</a><br>
+      <a target="_blank" id='currentPlayingTrack' class='output' readonly>current song</a>
+    </div>
+    <div id='artistsDiv'>
+      <h3>Top Artists</h3>
+      <a target="_blank" id='artist0' class='output' readonly>Artist One</a><br>
+      <a target="_blank" id='artist1' class='output' readonly>Artist Two</a><br>
+      <a target="_blank" id='artist2' class='output' readonly>Artist Three</a><br>
+      <a target="_blank" id='artist3' class='output' readonly>Artist Four</a><br>
+      <a target="_blank" id='artist4' class='output' readonly>Artist Five</a><br>
+    </div>
+    <div id='artistsDropDownDiv' style='position: absolute;top:30%;right:20%;'>
+      <div id='dropdownA'>
+        <button id='dropAButton'>Time range</button>
+        <div id='artistsDropDownContent'>
+          <p id='shortTermA'>Short Term</p>
+          <p id='mediumTermA'>Medium Term</p>
+          <p id='longTermA'>Long Term</p>
+        </div>
+      </div>
+    </div>
+    <div id='songsDiv'>
+      <h3>Top Songs</h3>
+      <a target="_blank" id='song0' class='output' readonly>Song One</a><br>
+      <a target="_blank" id='song1' class='output' readonly>Song Two</a><br>
+      <a target="_blank" id='song2' class='output' readonly>Song Three</a><br>
+      <a target="_blank" id='song3' class='output' readonly>Song Four</a><br>
+      <a target="_blank" id='song4' class='output' readonly>Song Five</a><br>
+    </div>
+    <div id='songsDropDownDiv' style='position:absolute; top:62%; right:20%;'>
+      <div id='dropdownS'>
+        <button id='dropSButton'>Time Range</button>
+        <div id='songsDropDownContent'>
+          <p id='shortTermS'>Short Term</p>
+          <p id='mediumTermS'>Medium Term</p>
+          <p id='longTermS'>Long Term</p>
+        </div>
+      </div>
+    </div>
+    <button id='scrollD' style="position:absolute;bottom:0.5%;border:0;background:transparent;cursor:pointer;padding:0;">⇩</button>
+    <!-- MIDDLE -->
+    <div id='pg2' style='height:100%;width:100%;top:100%;position:absolute;background: linear-gradient(#fdfdaa, #F3EFE0);'>
+      <div id='playerDiv' style='position:relative;'>
+        <div id='imageContainer'style="width:100%;position:relative;;">
+          <img src='/images/wavYYYYYYY.gif' style="max-width:500px;max-height:500px;">
+        </div>
+        <div id='buttons' style="position:absolute;width:100%;height:100%;">
+          <!-- TODO: make these buttons function and then make a range that tracks the length of the song -->
+          <input type='submit' id='previousButton'          value='❚◀'           style='min-width:20px;min-height:20px;position:absolute;left:37%;'>
+          <input type='submit' id='nextButton'              value='▶❚'           style='min-width:20px;min-height:20px;position:absolute;left:41%'>
+          <input type='submit' id='playButton'              value='▶❚❚'          style='min-width:20px;min-height:20px;position:absolute;left:39%'>
+          <input type="range" min='0' max='100' value='100' id='slider' style="position:absolute;right:37%;top:2%;">
+          <input type='text'   id='currentPlayingTrackX'    value='current song' style='min-width:20px;min-height:20px;position:absolute;' class='output' readonly>
+          <input type='text'   id='currentPlayingTrackY'    value='current song' style='min-width:20px;min-height:20px;position:absolute;' class='output' readonly>
+          <input type="range" min='0' max='' value='' id='sliderSong' style="position:absolute;left:35%;top:30%;">
+          <input type="text" value='' id='timeOfSong' class='output' readonly>
+        </div>
+      </div>
+      <div id='footer' style='position:absolute;bottom:0%;width:100%;background-color: #F3EFE0;'>
+        <button id='scrollU' style="margin:0;border:0;background:transparent;cursor:pointer;padding:0;">⇧</button>
+        <h4 style='margin:0;margin-bottom:5px;'>Jamie Mattocks</h4>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type='text/javascript' src='/javascripts/scripts.js'></script>
+</html>

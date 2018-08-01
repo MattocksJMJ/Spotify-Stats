@@ -1,0 +1,214 @@
+{
+  "items": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+      },
+      "followers": {
+        "href": null,
+        "total": 6203572
+      },
+      "genres": [
+        "garage rock",
+        "modern rock",
+        "permanent wave",
+        "sheffield indie"
+      ],
+      "href": "https://api.spotify.com/v1/artists/7Ln80lUS6He07XvHI8qqHH",
+      "id": "7Ln80lUS6He07XvHI8qqHH",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ed0552e9746ed2bbf04ae4bcb5525700ca31522d",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/b435e99aa7f1e27db56b6a4dc9df85e5636b22d6",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/73c4e49abed008fe0c5e4f1437b8b486c7670ecd",
+          "width": 160
+        }
+      ],
+      "name": "Arctic Monkeys",
+      "popularity": 81,
+      "type": "artist",
+      "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6FQqZYVfTNQ1pCqfkwVFEa"
+      },
+      "followers": {
+        "href": null,
+        "total": 717145
+      },
+      "genres": [
+        "alternative dance",
+        "dance-punk",
+        "garage rock",
+        "indie pop",
+        "indie rock",
+        "indietronica",
+        "math pop",
+        "modern rock",
+        "new rave",
+        "rock"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6FQqZYVfTNQ1pCqfkwVFEa",
+      "id": "6FQqZYVfTNQ1pCqfkwVFEa",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ef1f6a816b4895ba7ad2c7c569fc7aca36123d56",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/e8155696167f87c2ff840c706bd9c88ffa190068",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/f9bad1aa22867c100608002037e43340f16e5196",
+          "width": 160
+        }
+      ],
+      "name": "Foals",
+      "popularity": 64,
+      "type": "artist",
+      "uri": "spotify:artist:6FQqZYVfTNQ1pCqfkwVFEa"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2xaAOVImG2O6lURwqperlD"
+      },
+      "followers": {
+        "href": null,
+        "total": 526369
+      },
+      "genres": [
+        "garage rock",
+        "indie rock",
+        "modern alternative rock",
+        "modern rock",
+        "stomp pop",
+        "welsh rock"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2xaAOVImG2O6lURwqperlD",
+      "id": "2xaAOVImG2O6lURwqperlD",
+      "images": [
+        {
+          "height": 1000,
+          "url": "https://i.scdn.co/image/c3e69a618f46ade3ce68dfd4e1b573c3ca5d7f33",
+          "width": 1000
+        },
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/9c9df790c9675b3f0559843a4963e9bd4c74cac0",
+          "width": 640
+        },
+        {
+          "height": 200,
+          "url": "https://i.scdn.co/image/8ca65c873068b4fd59799d2dce1fd4e8024b263a",
+          "width": 200
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/6be0d68e94f18320d8d86285cb1bb46f60d7c03f",
+          "width": 64
+        }
+      ],
+      "name": "Catfish and the Bottlemen",
+      "popularity": 64,
+      "type": "artist",
+      "uri": "spotify:artist:2xaAOVImG2O6lURwqperlD"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/52pNByiBWx6SVMMqqcCA74"
+      },
+      "followers": {
+        "href": null,
+        "total": 28333
+      },
+      "genres": [
+        "alt-indie rock",
+        "indie rock"
+      ],
+      "href": "https://api.spotify.com/v1/artists/52pNByiBWx6SVMMqqcCA74",
+      "id": "52pNByiBWx6SVMMqqcCA74",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/d43f186f4d8be10a4c096759f3d54e0ea86cf8e2",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ea1d6e12da662d602e66d5d911740f19999e1273",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/4a47df259bdefb21d01f5fdacaa4235c0a3cd7ed",
+          "width": 160
+        }
+      ],
+      "name": "The Magic Gang",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:52pNByiBWx6SVMMqqcCA74"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/7DruTvBV7owt1aSAZHsU58"
+      },
+      "followers": {
+        "href": null,
+        "total": 59504
+      },
+      "genres": [
+        "alt-indie rock",
+        "indie rock"
+      ],
+      "href": "https://api.spotify.com/v1/artists/7DruTvBV7owt1aSAZHsU58",
+      "id": "7DruTvBV7owt1aSAZHsU58",
+      "images": [
+        {
+          "height": 563,
+          "url": "https://i.scdn.co/image/c5d890483fa35500ad23db6e03c1a711cec891fc",
+          "width": 999
+        },
+        {
+          "height": 361,
+          "url": "https://i.scdn.co/image/922adfb24fe71a7296a55521c05063ad88ede26f",
+          "width": 640
+        },
+        {
+          "height": 113,
+          "url": "https://i.scdn.co/image/7d6514a1d01b46f020bdcc272dbe38de47d95122",
+          "width": 200
+        },
+        {
+          "height": 36,
+          "url": "https://i.scdn.co/image/3bf609664d2ae9be350f0333ab87b6a130bec458",
+          "width": 64
+        }
+      ],
+      "name": "Viola Beach",
+      "popularity": 50,
+      "type": "artist",
+      "uri": "spotify:artist:7DruTvBV7owt1aSAZHsU58"
+    }
+  ],
+  "total": 50,
+  "limit": 5,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=0",
+  "previous": null,
+  "next": "https://api.spotify.com/v1/me/top/artists?limit=5&offset=5"
+}

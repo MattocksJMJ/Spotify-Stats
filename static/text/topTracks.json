@@ -1,0 +1,394 @@
+{
+  "items": [
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6FQqZYVfTNQ1pCqfkwVFEa"
+            },
+            "href": "https://api.spotify.com/v1/artists/6FQqZYVfTNQ1pCqfkwVFEa",
+            "id": "6FQqZYVfTNQ1pCqfkwVFEa",
+            "name": "Foals",
+            "type": "artist",
+            "uri": "spotify:artist:6FQqZYVfTNQ1pCqfkwVFEa"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/0PIR7PK8DMB4pgoxq7F9Ad"
+        },
+        "href": "https://api.spotify.com/v1/albums/0PIR7PK8DMB4pgoxq7F9Ad",
+        "id": "0PIR7PK8DMB4pgoxq7F9Ad",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/0f47ea31117fde908ae7bd66831583bf67d68778",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ea1d1d0ec08000bd03c1b305de71091070550983",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/b72a271ead6f27df017cb0fc3595af1c541409ab",
+            "width": 64
+          }
+        ],
+        "name": "Holy Fire",
+        "release_date": "2013-02-11",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:0PIR7PK8DMB4pgoxq7F9Ad"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/6FQqZYVfTNQ1pCqfkwVFEa"
+          },
+          "href": "https://api.spotify.com/v1/artists/6FQqZYVfTNQ1pCqfkwVFEa",
+          "id": "6FQqZYVfTNQ1pCqfkwVFEa",
+          "name": "Foals",
+          "type": "artist",
+          "uri": "spotify:artist:6FQqZYVfTNQ1pCqfkwVFEa"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 240533,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "GBAHT1200723"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4c9WmjVlQMr0s1IjbYO52Z"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4c9WmjVlQMr0s1IjbYO52Z",
+      "id": "4c9WmjVlQMr0s1IjbYO52Z",
+      "is_local": false,
+      "is_playable": true,
+      "name": "My Number",
+      "popularity": 73,
+      "preview_url": "https://p.scdn.co/mp3-preview/39bd1218c0f50535cfab309d6cd2f34aadf1637b?cid=null",
+      "track_number": 3,
+      "type": "track",
+      "uri": "spotify:track:4c9WmjVlQMr0s1IjbYO52Z"
+    },
+    {
+      "album": {
+        "album_type": "SINGLE",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/52pNByiBWx6SVMMqqcCA74"
+            },
+            "href": "https://api.spotify.com/v1/artists/52pNByiBWx6SVMMqqcCA74",
+            "id": "52pNByiBWx6SVMMqqcCA74",
+            "name": "The Magic Gang",
+            "type": "artist",
+            "uri": "spotify:artist:52pNByiBWx6SVMMqqcCA74"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/2J0r5XQVT7xXNsCwTO2scA"
+        },
+        "href": "https://api.spotify.com/v1/albums/2J0r5XQVT7xXNsCwTO2scA",
+        "id": "2J0r5XQVT7xXNsCwTO2scA",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/9e35bebfd3aa8daf4e6fd6a9c905c3e6372a1759",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/cfda7060ee8350fd8662a236db57f31f645b046b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/11ba94eab60e0c06ccdb3500800c5527ac4c1344",
+            "width": 64
+          }
+        ],
+        "name": "The Magic Gang EP",
+        "release_date": "2016-01-08",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:2J0r5XQVT7xXNsCwTO2scA"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/52pNByiBWx6SVMMqqcCA74"
+          },
+          "href": "https://api.spotify.com/v1/artists/52pNByiBWx6SVMMqqcCA74",
+          "id": "52pNByiBWx6SVMMqqcCA74",
+          "name": "The Magic Gang",
+          "type": "artist",
+          "uri": "spotify:artist:52pNByiBWx6SVMMqqcCA74"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 174545,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "QM7281580572"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/4sBw1uMPTBO5EJjzRtAek4"
+      },
+      "href": "https://api.spotify.com/v1/tracks/4sBw1uMPTBO5EJjzRtAek4",
+      "id": "4sBw1uMPTBO5EJjzRtAek4",
+      "is_local": false,
+      "is_playable": true,
+      "name": "Lady, Please",
+      "popularity": 47,
+      "preview_url": "https://p.scdn.co/mp3-preview/792afc7ae56e8c5f84d330fe3eb1cac4f875b190?cid=null",
+      "track_number": 1,
+      "type": "track",
+      "uri": "spotify:track:4sBw1uMPTBO5EJjzRtAek4"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+            },
+            "href": "https://api.spotify.com/v1/artists/7Ln80lUS6He07XvHI8qqHH",
+            "id": "7Ln80lUS6He07XvHI8qqHH",
+            "name": "Arctic Monkeys",
+            "type": "artist",
+            "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/78bpIziExqiI9qztvNFlQu"
+        },
+        "href": "https://api.spotify.com/v1/albums/78bpIziExqiI9qztvNFlQu",
+        "id": "78bpIziExqiI9qztvNFlQu",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/f513ae2d610d9255913795d4bc28ca33c827b232",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/f1e6688873c2bba1d729288e6b0f6d1137d9777b",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/a16aa05eb1610d314c63afd580df9e92ce46cc50",
+            "width": 64
+          }
+        ],
+        "name": "AM",
+        "release_date": "2013-09-09",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:78bpIziExqiI9qztvNFlQu"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/7Ln80lUS6He07XvHI8qqHH"
+          },
+          "href": "https://api.spotify.com/v1/artists/7Ln80lUS6He07XvHI8qqHH",
+          "id": "7Ln80lUS6He07XvHI8qqHH",
+          "name": "Arctic Monkeys",
+          "type": "artist",
+          "uri": "spotify:artist:7Ln80lUS6He07XvHI8qqHH"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 201726,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "GBCEL1300363"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/2AT8iROs4FQueDv2c8q2KE"
+      },
+      "href": "https://api.spotify.com/v1/tracks/2AT8iROs4FQueDv2c8q2KE",
+      "id": "2AT8iROs4FQueDv2c8q2KE",
+      "is_local": false,
+      "is_playable": true,
+      "name": "R U Mine?",
+      "popularity": 76,
+      "preview_url": "https://p.scdn.co/mp3-preview/f96c611f0ec01e0300f19f9fd1fa16ba162682c9?cid=null",
+      "track_number": 2,
+      "type": "track",
+      "uri": "spotify:track:2AT8iROs4FQueDv2c8q2KE"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1btWGBz4Uu1HozTwb2Lm8A"
+            },
+            "href": "https://api.spotify.com/v1/artists/1btWGBz4Uu1HozTwb2Lm8A",
+            "id": "1btWGBz4Uu1HozTwb2Lm8A",
+            "name": "Hippo Campus",
+            "type": "artist",
+            "uri": "spotify:artist:1btWGBz4Uu1HozTwb2Lm8A"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/6w11yCRu1l5MPwTSlFmysm"
+        },
+        "href": "https://api.spotify.com/v1/albums/6w11yCRu1l5MPwTSlFmysm",
+        "id": "6w11yCRu1l5MPwTSlFmysm",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/4e01787a50d21f3e24cfdf07403249e4df370b56",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/9ef9f6fd886609d712b23a3f179681721f26b365",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/24f017a1a917e7d35933d5856c2018928fb1d815",
+            "width": 64
+          }
+        ],
+        "name": "landmark",
+        "release_date": "2017-02-24",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:6w11yCRu1l5MPwTSlFmysm"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/1btWGBz4Uu1HozTwb2Lm8A"
+          },
+          "href": "https://api.spotify.com/v1/artists/1btWGBz4Uu1HozTwb2Lm8A",
+          "id": "1btWGBz4Uu1HozTwb2Lm8A",
+          "name": "Hippo Campus",
+          "type": "artist",
+          "uri": "spotify:artist:1btWGBz4Uu1HozTwb2Lm8A"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 226610,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "QM5BK1600122"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/5q88vK8yqVkT7LBbjB6dic"
+      },
+      "href": "https://api.spotify.com/v1/tracks/5q88vK8yqVkT7LBbjB6dic",
+      "id": "5q88vK8yqVkT7LBbjB6dic",
+      "is_local": false,
+      "is_playable": true,
+      "name": "buttercup",
+      "popularity": 53,
+      "preview_url": "https://p.scdn.co/mp3-preview/0d8fd66e26f3edb840a77333f9401006468232ac?cid=null",
+      "track_number": 13,
+      "type": "track",
+      "uri": "spotify:track:5q88vK8yqVkT7LBbjB6dic"
+    },
+    {
+      "album": {
+        "album_type": "ALBUM",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/09K1H1DgyIXHsMx2j7KTFX"
+            },
+            "href": "https://api.spotify.com/v1/artists/09K1H1DgyIXHsMx2j7KTFX",
+            "id": "09K1H1DgyIXHsMx2j7KTFX",
+            "name": "Mystery Jets",
+            "type": "artist",
+            "uri": "spotify:artist:09K1H1DgyIXHsMx2j7KTFX"
+          }
+        ],
+        "external_urls": {
+          "spotify": "https://open.spotify.com/album/5gdWHfwu68jqPbxXxMDyL6"
+        },
+        "href": "https://api.spotify.com/v1/albums/5gdWHfwu68jqPbxXxMDyL6",
+        "id": "5gdWHfwu68jqPbxXxMDyL6",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/1cc6ded02ef0bfddab39113b87ec8f70ee837448",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/079ebfe4d18b72404e0198e4ef685b0e4b8e1300",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/781b99fd6445963c7ae9b082807046cdd576db1c",
+            "width": 64
+          }
+        ],
+        "name": "Curve Of The Earth",
+        "release_date": "2016-01-15",
+        "release_date_precision": "day",
+        "type": "album",
+        "uri": "spotify:album:5gdWHfwu68jqPbxXxMDyL6"
+      },
+      "artists": [
+        {
+          "external_urls": {
+            "spotify": "https://open.spotify.com/artist/09K1H1DgyIXHsMx2j7KTFX"
+          },
+          "href": "https://api.spotify.com/v1/artists/09K1H1DgyIXHsMx2j7KTFX",
+          "id": "09K1H1DgyIXHsMx2j7KTFX",
+          "name": "Mystery Jets",
+          "type": "artist",
+          "uri": "spotify:artist:09K1H1DgyIXHsMx2j7KTFX"
+        }
+      ],
+      "disc_number": 1,
+      "duration_ms": 264946,
+      "explicit": false,
+      "external_ids": {
+        "isrc": "GBUM71505927"
+      },
+      "external_urls": {
+        "spotify": "https://open.spotify.com/track/53p7or9OC8PGNnGrd9gLBv"
+      },
+      "href": "https://api.spotify.com/v1/tracks/53p7or9OC8PGNnGrd9gLBv",
+      "id": "53p7or9OC8PGNnGrd9gLBv",
+      "is_local": false,
+      "is_playable": true,
+      "linked_from": {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/track/3pFObHefXAHl5BD9PMPvgg"
+        },
+        "href": "https://api.spotify.com/v1/tracks/3pFObHefXAHl5BD9PMPvgg",
+        "id": "3pFObHefXAHl5BD9PMPvgg",
+        "type": "track",
+        "uri": "spotify:track:3pFObHefXAHl5BD9PMPvgg"
+      },
+      "name": "Bubblegum",
+      "popularity": 50,
+      "preview_url": null,
+      "track_number": 3,
+      "type": "track",
+      "uri": "spotify:track:53p7or9OC8PGNnGrd9gLBv"
+    }
+  ],
+  "total": 50,
+  "limit": 5,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/tracks?limit=5&offset=0",
+  "previous": null,
+  "next": "https://api.spotify.com/v1/me/top/tracks?limit=5&offset=5"
+}

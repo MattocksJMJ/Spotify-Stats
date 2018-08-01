@@ -1,0 +1,198 @@
+html {
+  height:100%;
+}
+
+body    {
+    background: linear-gradient(#F3EFE0, #fdfdaa);
+    font-family: Calibri;
+    font-size: large;
+    font-variant: all-small-caps;
+    color: #696969;
+    text-align: center;
+    overflow: hidden;
+    height: 100%;
+    margin: 0px;
+}
+
+h1  {
+    font-family: Calibri;
+    font-weight: bolder;
+    font-variant: all-small-caps;
+    color: #696969;
+    text-align: center;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin: 0px;
+}
+
+.output {
+  background: transparent;
+  border: 0px;
+  font-size: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  font-weight: inherit;
+  font-variant: inherit;
+  position:  inherit;
+  text-align:left;
+  padding: 1% 0 1% 0;
+  cursor: default;
+  text-decoration: none;
+}
+
+#clickMe {
+  background: transparent;
+  font-family: inherit;
+  font-variant: inherit;
+  font-weight: inherit;
+  color: inherit;
+  text-align:center;
+  border: 1px solid #696969;
+  border-radius: 4px;
+  font-size: inherit;
+  padding: 3px 3px 3px 3px;
+}
+
+#currentPlayingTrack  {
+  position:relative;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+#userNameBox {
+  position:relative;
+  text-align: center;
+  cursor: pointer;
+  padding: 0;
+}
+
+#songsDiv {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top:55%;
+}
+
+#songsDiv a {
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+}
+
+#dropdownS{
+  position: relative;
+  display: inline-block;
+}
+
+#dropSButton {
+  color: #696969;
+  cursor: pointer;
+  padding: 16px;
+  background-color: #F3EFE0;
+  font-size: 16px;
+  font-family:inherit;
+  font-variant:inherit;
+  font-weight:inherit;
+  border: 0;
+  box-shadow: -2px -2px 4px 0px rgba(0,0,0,0.2);
+}
+#songsDropDownContent {
+  position: absolute;
+  display: none;
+  background: #F3EFE0;
+  color: #696969;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 0;
+}
+
+#songsDropDownContent p {
+  color: #696969;
+  padding: 16px 12px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+}
+
+#songsDropDownContent p:hover {background-color: #f1f1f1}
+
+#dropdownS:hover #songsDropDownContent {
+  display: block;
+}
+
+#dropdownS:hover #dropSButton {
+  background-color: #cccccc;
+}
+
+#artistsDiv {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 22.5%;
+}
+
+#artistsDiv a {
+  cursor: pointer;
+  position: relative;
+  padding: 0;
+}
+
+#dropdownA {
+  position: relative;
+  display: inline-block;
+}
+
+#dropAButton {
+  color:#696969;
+  cursor:pointer;
+  padding:16px;
+  background-color:#F3EFE0;
+  font-size:16px;
+  font-family:inherit;
+  font-variant:inherit;
+  font-weight:inherit;
+  border: 0;
+  box-shadow: -2px -2px 4px 0px rgba(0,0,0,0.2);
+}
+
+#artistsDropDownContent {
+  position: absolute;
+  display: none;
+  background: #F3EFE0;
+  color: #696969;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border: 0;
+}
+
+#artistsDropDownContent p {
+  color: #696969;
+  padding: 16px 12px;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+}
+
+#artistsDropDownContent p:hover {background-color: #f1f1f1}
+
+#dropdownA:hover #artistsDropDownContent {
+  display: block;
+}
+
+#dropdownA:hover #dropAButton {
+  background-color: #cccccc;
+}
+
+#recommendedTracks {
+  position: absolute;
+  display: block;
+  left:44%;
+}
+
+br {
+  line-height: 30px;
+}
