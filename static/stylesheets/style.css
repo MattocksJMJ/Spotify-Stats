@@ -54,6 +54,14 @@ h1  {
   padding: 3px 3px 3px 3px;
 }
 
+#refresh {
+  position: absolute;
+  width:20px;
+  height:20px;
+  right:0%;
+  cursor: pointer;
+}
+
 #currentPlayingTrack  {
   position:relative;
   text-align: center;

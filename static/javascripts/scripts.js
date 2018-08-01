@@ -24,6 +24,9 @@ function loggedIn() {
 setInterval(function() {
    run(); }, 1000);
 
+$('#refresh').click(function() {
+  $('#clickMe').click();
+});
 
 $('#scrollD').click(function(){
   scrollTo({
