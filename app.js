@@ -1,4 +1,4 @@
-// A spotify app that displays a user's top songs, top albums and the song currently being listened to.
+// A spotify app that displays a user's top songs, top albums and recommends songs based on the top songs.
 // Jamie Mattocks
 
 var express = require('express');
@@ -7,9 +7,9 @@ var request = require('request');
 var querystring = require('querystring');
 var fs = require('fs');
 
-var client_id = 'ClIeNt Id'; // CLIENT ID
-var redirect_uri = 'rEdIReCt UrI'; // REDIRECT URI - SET ON SPOTIFY DASHBOARD
-var client_secret = 'cLiEnT SeCrEt' // SECRET ID
+var client_id = '8b5e73e19eed41fab0cc4c8fe8be29d7'; // CLIENT ID
+var redirect_uri = 'http://localhost:8080/callback'; // REDIRECT URI - SET ON SPOTIFY DASHBOARD
+var client_secret = '9cabf81b756147b7bb4db5bcc224927f' // SECRET ID
 var scope = 'user-read-private user-top-read user-read-currently-playing user-read-private user-modify-playback-state'; // SCOPES WHICH WILL BE QUERYED
 
 //SET RENDERER TO EJS
@@ -65,7 +65,7 @@ app.get('/callback', function(req, res){
 
         var access_token = body.access_token,
         refresh_token = body.refresh_token;
-
+        
         // TOP ARTISTS QUERY
         var options = {
           url: 'https://api.spotify.com/v1/me/top/artists'
