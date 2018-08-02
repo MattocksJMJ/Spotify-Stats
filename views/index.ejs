@@ -8,14 +8,17 @@
   <link rel='stylesheet' type='text/css' href='/stylesheets/page2.css'>
 </head>
 <body>
+  <!-- This element appears when the page is loaded, once pressed it will redirect the user to login in to spotify -->
   <div id='logInScreenDiv' style='display:block;'>
     <h1> PLEASE LOG IN  </h1>
     <form action='/login' method="get">
       <input type="submit" id="clickMe" name="username" value="Log In" onclick="logInF()">
     </form>
   </div>
+  <!-- This element contains everything that is displayed after the user logs in to spotify -->
   <div id='loggedInScreenDiv' style="display:none;height:100%;">
     <div>
+      <!-- A refresh button that performs the original task of the 'login' button, this is needed as the authentication code doesn't last long -->
       <img src='/images/refresh.png' id='refresh'>
       <h1> Spotify Stats </h1>
       <a target="_blank" id='userNameBox' class='output' readonly>ID</a><br>
@@ -29,6 +32,7 @@
       <a target="_blank" id='artist3' class='output' readonly>Artist Four</a><br>
       <a target="_blank" id='artist4' class='output' readonly>Artist Five</a><br>
     </div>
+    <!-- A dropdown list to select the time range for the above information -->
     <div id='artistsDropDownDiv' style='position: absolute;top:30%;right:20%;'>
       <div id='dropdownA'>
         <button id='dropAButton'>Time range</button>
@@ -57,16 +61,16 @@
         </div>
       </div>
     </div>
+    <!-- A button which scrolls the page to 'page 2' -->
     <button id='scrollD' style="position:absolute;bottom:0.5%;border:0;background:transparent;cursor:pointer;padding:0;">⇩</button>
     <!-- MIDDLE -->
     <div id='pg2' style='height:100%;width:100%;top:100%;position:absolute;background: linear-gradient(#fdfdaa, #F3EFE0);'>
       <div id='playerDiv' style='position:relative;'>
-        <div id='imageContainer'style="width:100%;position:relative;;">
+        <div id='imageContainer'style="width:100%;position:relative;">
           <img src='/images/wavYYYYYYY.gif' style="max-width:500px;max-height:500px;">
-          <!-- <iframe style="max-width:400px;max-height:300px;" src="https://www.youtube.com/embed/3eRBFkxgG7g?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
         </div>
         <div id='buttons' style="position:absolute;width:100%;height:100%;">
-          <!-- TODO: make these buttons function and then make a range that tracks the length of the song -->
+          <!-- Functional buttons that control the track and its volume on spotify -->
           <input type='submit' id='previousButton'          value='❚◀'           style='min-width:20px;min-height:20px;position:absolute;left:37%;'>
           <input type='submit' id='nextButton'              value='▶❚'           style='min-width:20px;min-height:20px;position:absolute;left:41.4%'>
           <input type='submit' id='playButton'              value='▶❚❚'          style='min-width:20px;min-height:20px;position:absolute;left:39%'>
@@ -78,6 +82,7 @@
         </div>
       </div>
       <div id='footer' style='position:absolute;bottom:0%;width:100%;background-color: #F3EFE0;'>
+        <!-- Another scroll button that scrolls backup -->
         <button id='scrollU' style="margin:0;border:0;background:transparent;cursor:pointer;padding:0;">⇧</button>
         <h4 style='margin:0;margin-bottom:5px;'>Jamie Mattocks</h4>
       </div>
