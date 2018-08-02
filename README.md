@@ -8,16 +8,16 @@
 - Scrub through the song timeline
 
 ## Images
-- Log In Screen
+### Log In Screen
 ![Imgur](https://i.imgur.com/Mlfc91a.png)
 
-- Main Screen
+### Main Screen
 ![Imgur](https://i.imgur.com/4JUzgGN.png)
 
--Dropdown Menu
+### Dropdown Menu
 ![Imgur](https://i.imgur.com/M70ugVI.png)
 
--Player
+### Player
 ![Imgur](https://i.imgur.com/bQMrabv.png)
 
-### Unfinished posting here for backup
+## Unfinished posting here for backup
