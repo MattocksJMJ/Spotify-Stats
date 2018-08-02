@@ -15,7 +15,7 @@
 ![Imgur](https://i.imgur.com/4JUzgGN.png)
 
 ### Dropdown Menu
-![img]https://i.imgur.com/2x9HuHA.png[/img]
+![Imgur](https://i.imgur.com/2x9HuHA.png)
 
 ### Player
 ![Imgur](https://i.imgur.com/bQMrabv.png)
