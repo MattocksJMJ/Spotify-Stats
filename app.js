@@ -7,9 +7,9 @@ var request = require('request');
 var querystring = require('querystring');
 var fs = require('fs');
 
-var client_id = '8b5e73e19eed41fab0cc4c8fe8be29d7'; // CLIENT ID
-var redirect_uri = 'http://localhost:8080/callback'; // REDIRECT URI - SET ON SPOTIFY DASHBOARD
-var client_secret = '9cabf81b756147b7bb4db5bcc224927f' // SECRET ID
+var client_id = ''; // CLIENT ID
+var redirect_uri = ''; // REDIRECT URI - SET ON SPOTIFY DASHBOARD
+var client_secret = ''; // SECRET ID
 var scope = 'user-read-private user-top-read user-read-currently-playing user-read-private user-modify-playback-state'; // SCOPES WHICH WILL BE QUERYED
 
 //SET RENDERER TO EJS
