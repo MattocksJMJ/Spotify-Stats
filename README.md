@@ -9,15 +9,15 @@
 
 ## Images
 - Log In Screen
-![Image of Log In Screen](https://imgur.com/Mlfc91a)
+![Imgur](https://i.imgur.com/Mlfc91a.png)
 
 - Main Screen
-![Image of Main Screen](https://imgur.com/4JUzgGN)
+![Imgur](https://i.imgur.com/4JUzgGN.png)
 
 -Dropdown Menu
-![Image of Dropdown Menu](https://imgur.com/4JUzgGN)
+![Imgur](https://i.imgur.com/M70ugVI.png)
 
 -Player
-![Image of Player](https://imgur.com/bQMrabv)
+![Imgur](https://i.imgur.com/bQMrabv.png)
 
 ### Unfinished posting here for backup
