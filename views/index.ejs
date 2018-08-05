@@ -65,20 +65,24 @@
     <button id='scrollD' style="position:absolute;bottom:0.5%;border:0;background:transparent;cursor:pointer;padding:0;">⇩</button>
     <!-- MIDDLE -->
     <div id='pg2' style='height:100%;width:100%;top:100%;position:absolute;background: linear-gradient(#fdfdaa, #F3EFE0);'>
-      <div id='playerDiv' style='position:relative;top:5%;'>
+      <div id='playerDiv' style='position:relative;top:5%;width:500px;margin:auto;'>
         <div id='imageContainer'style="width:100%;position:relative;">
           <img src='/images/wavYYYYYYY.gif' style="max-width:500px;max-height:500px;">
         </div>
-        <div id='buttons' style="position:absolute;width:100%;height:100%;">
+        <div id='buttons' style="width:100px;height:20px;margin-left:50px;display:inline-flex;float:left;">
           <!-- Functional buttons to pause, play and skip the song, change the volume and scrub along the timeline -->
-          <input type='submit' id='previousButton'          value='❚◀'           style='min-width:20px;min-height:20px;position:absolute;left:37%;'>
-          <input type='submit' id='nextButton'              value='▶❚'           style='min-width:20px;min-height:20px;position:absolute;left:41.4%'>
-          <input type='submit' id='playButton'              value='▶❚❚'          style='min-width:20px;min-height:20px;position:absolute;left:39%'>
-          <input type="range" min='0' max='100' value='100' id='slider'          style="position:absolute;right:37%;top:2%;">
-          <input type="button" id='loveButton' value="🖤"                        style='min-width:20px;min-height:20px;position:absolute;left:43.5%;'>
-          <input type='text'   id='currentPlayingTrackX'    value='current song' style='min-width:20px;min-height:20px;position:absolute;' class='output' readonly>
-          <input type='text'   id='currentPlayingTrackY'    value='current song' style='min-width:20px;min-height:20px;position:absolute;' class='output' readonly>
-          <input type="range" min='0' max='' value='' id='sliderSong' style="position:absolute;left:35%;top:30%;">
+          <input type='submit' id='previousButton'          value='❚◀'           style='min-width:20px;min-height:20px;'>
+          <input type='submit' id='nextButton'              value='▶❚'           style='min-width:20px;min-height:20px;'>
+          <input type='submit' id='playButton'              value='▶❚❚'          style='min-width:20px;min-height:20px;'>
+          <input type="button" id='loveButton' value="🖤"                        style='min-width:20px;min-height:20px;'>
+        </div>
+        <div id='volDiv' style="display:inline-flex;float:right;margin-right:50px;height:20px;">
+          <input type="range" min='0' max='100' value='100' id='slider' style="position:relative; top:6px;">
+        </div>
+        <div id='currentPlayingDiv' style="display:block;margin-top:30px;">
+          <input type='text'   id='currentPlayingTrackX'    value='current song' style='min-width:20px;min-height:20px;' class='output' readonly>
+          <input type='text'   id='currentPlayingTrackY'    value='current song' style='min-width:20px;min-height:20px;' class='output' readonly>
+          <input type="range" min='0' max='' value='' id='sliderSong' style="">
           <input type="text" value='' id='timeOfSong' class='output' readonly>
         </div>
       </div>
