@@ -6,6 +6,7 @@
 - Skip to next/previous track
 - Change the volume
 - Scrub through the song timeline
+- Favourite button which then adds the track to a list 
 
 ## Images
 ### Log In Screen
@@ -18,6 +19,9 @@
 ![Imgur](https://i.imgur.com/2x9HuHA.png)
 
 ### Player
-![Imgur](https://i.imgur.com/bQMrabv.png)
+![Imgur](https://i.imgur.com/8Htkcz2.png)
+
+### Loved Tracks List
+![Imgur](https://i.imgur.com/YYdPsVF.png)
 
 ## Unfinished posting here for backup
