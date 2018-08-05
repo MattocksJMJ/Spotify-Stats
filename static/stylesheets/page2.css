@@ -85,3 +85,52 @@
   right: 25%;
   font-size: 15px;
 }
+
+#lovedListDiv {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  max-width: 400px;
+  max-height: 300px;
+  background: transparent;
+  /* box-shadow: 0px 0px 6px 1px rgba(0,0,0,0.2); */
+  right: 6%;
+  top: 5%;
+}
+
+
+#lovedList {
+  list-style-type: none;
+  text-align: left;
+  font-size:15px;
+  padding: 5px 5px 5px 5px;
+  margin:5px;
+  overflow-y: auto;
+  max-height: 275px;
+  display: none;
+}
+
+#lovedList li:nth-child(even) {
+  /* border-bottom: 1px solid #f1f1f1; */
+  background-color: #f1f1f1;
+  padding: 0px 5px 0px 5px;
+  max-height: 19.4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#lovedList li:nth-child(odd) {
+  /* border-bottom: 1px solid #f1f1f1; */
+  background-color: #F3EFE0;
+  padding: 0px 5px 0px 5px;
+  max-height: 19.4px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#loveButton {
+  padding: 0;
+  border:0;
+  background-color: #F3EFE0;
+}
