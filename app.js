@@ -14,7 +14,7 @@ var scope = 'user-read-private user-top-read user-read-currently-playing user-re
 
 //SET RENDERER TO EJS
 app.set('view engine', 'ejs');
-//RETREIVE STYLES AND JS
+//RETRIEVE STYLES AND JS
 app.use(express.static('static'))
 
 
