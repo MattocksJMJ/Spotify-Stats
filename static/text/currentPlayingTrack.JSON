@@ -2,11 +2,11 @@
   "timestamp": 1533156522453,
   "context": {
     "external_urls": {
-      "spotify": "https://open.spotify.com/user/jamie_the_king/playlist/6pNH0kex759ySQOBnNuJUF"
+      "spotify": "https://open.spotify.com/user/_"
     },
-    "href": "https://api.spotify.com/v1/users/jamie_the_king/playlists/6pNH0kex759ySQOBnNuJUF",
+    "href": "https://api.spotify.com/v1/users/_",
     "type": "playlist",
-    "uri": "spotify:user:jamie_the_king:playlist:6pNH0kex759ySQOBnNuJUF"
+    "uri": "spotify:user:_:playlist:_"
   },
   "progress_ms": 96731,
   "item": {
