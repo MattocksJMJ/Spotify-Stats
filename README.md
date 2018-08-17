@@ -7,6 +7,7 @@
 - Change the volume
 - Scrub through the song timeline
 - Favourite button which then adds the track to a list 
+- Search option for artists, tracks and albums
 
 ## Images
 ### Log In Screen
@@ -22,6 +23,9 @@
 ![Imgur](https://i.imgur.com/8Htkcz2.png)
 
 ### Loved Tracks List
-![Imgur](https://i.imgur.com/YYdPsVF.png)
+![Imgur](https://i.imgur.com/KZnAWOx.png)
+
+### Search Option
+![Imgur](https://i.imgur.com/ltktuaW.png)
 
 ## Unfinished posting here for backup
