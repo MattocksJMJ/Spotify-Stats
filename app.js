@@ -1,4 +1,5 @@
 // A spotify app that displays a user's top songs, top albums and recommends songs based on the top songs.
+// ALso includes a player that cna control spotify and search spotify for artists, albums, tracks and playlists.
 // Jamie Mattocks
 
 var express = require('express');
@@ -14,38 +15,37 @@ var scope = 'user-read-private user-top-read user-read-currently-playing user-re
 
 //SET RENDERER TO EJS
 app.set('view engine', 'ejs');
-//RETRIEVE STYLES AND JS
+//RETREIVE STYLES AND JS
 app.use(express.static('static'))
 
 
 //LOG IN PAGE
-app.get('/', function(req, res){
+app.get('/', function(req, res) {
   console.log('requested: ' + req.url);
   res.render('index');
 });
 
 // WHEN BUTTON PRESSED ON LOGIN REDIRECT TO LOGIN SCREEN
-app.get('/login', function(req, res){
-  res.redirect('https://accounts.spotify.com/authorize?'+
-  'client_id=' + client_id +
-  '&response_type=' + 'code' +
-  '&redirect_uri=' + redirect_uri +
-  '&scope=' + scope);
+app.get('/login', function(req, res) {
+  res.redirect('https://accounts.spotify.com/authorize?' +
+    'client_id=' + client_id +
+    '&response_type=' + 'code' +
+    '&redirect_uri=' + redirect_uri +
+    '&scope=' + scope);
 });
 // AFTER LOGGED IN CALLBACK TO HERE
-app.get('/callback', function(req, res){
-  var re    = /callback+(\S+)/;
+app.get('/callback', function(req, res) {
+  var re = /callback+(\S+)/;
   var match = re.exec(req.url);
   match = match[1];
 
   var newRe = /code=+(\S+)\b/;
-  var code  = newRe.exec(req.url);
-  code  = code[1];
+  var code = newRe.exec(req.url);
+  code = code[1];
   // IF THE CALLBACK FAILED DISPLAY 404
   if (match == '?error=access_denied&state=STATE') {
     res.render('404');
-  }
-  else {
+  } else {
     // IF CALLBACK SUCCEEDS
     var authOptions = {
       url: 'https://accounts.spotify.com/api/token',
@@ -60,17 +60,19 @@ app.get('/callback', function(req, res){
       json: true
     }
     //  REQUEST A QUERY PAGE
-    request.post(authOptions, function(error, response, body){
+    request.post(authOptions, function(error, response, body) {
       if (!error && response.statusCode === 200) {
 
         var access_token = body.access_token,
-        refresh_token = body.refresh_token;
-        
+          refresh_token = body.refresh_token;
+
         // TOP ARTISTS QUERY
         var options = {
-          url: 'https://api.spotify.com/v1/me/top/artists'
-          +'?time_range=medium_term&limit=5&offset=0',
-          headers: { 'Authorization': 'Bearer ' + access_token },
+          url: 'https://api.spotify.com/v1/me/top/artists' +
+            '?time_range=medium_term&limit=5&offset=0',
+          headers: {
+            'Authorization': 'Bearer ' + access_token
+          },
           json: true
         };
 
@@ -85,7 +87,9 @@ app.get('/callback', function(req, res){
         // User ID Query
         var options = {
           url: 'https://api.spotify.com/v1/me',
-          headers: { 'Authorization': 'Bearer ' + access_token },
+          headers: {
+            'Authorization': 'Bearer ' + access_token
+          },
           json: true
         };
 
@@ -99,9 +103,11 @@ app.get('/callback', function(req, res){
 
         // TOP TRACKS QUERY
         var options = {
-          url: 'https://api.spotify.com/v1/me/top/tracks'
-          +'?time_range=medium_term&limit=5&offset=0',
-          headers: { 'Authorization': 'Bearer ' + access_token },
+          url: 'https://api.spotify.com/v1/me/top/tracks' +
+            '?time_range=medium_term&limit=5&offset=0',
+          headers: {
+            'Authorization': 'Bearer ' + access_token
+          },
           json: true
         };
 
@@ -115,8 +121,10 @@ app.get('/callback', function(req, res){
         //  CURRENTLY PLAYING QUERY
         var options = {
           url: 'https://api.spotify.com/v1/me/player/currently-playing' +
-          '?market=GB',
-          headers: { 'Authorization': 'Bearer ' + access_token },
+            '?market=GB',
+          headers: {
+            'Authorization': 'Bearer ' + access_token
+          },
           json: true
         };
 
@@ -130,16 +138,15 @@ app.get('/callback', function(req, res){
 
         // REDIRECT AFTER QUERY
         res.redirect('/#' +
-        querystring.stringify({
-          access_token: access_token,
-          refresh_token: refresh_token
-        }));
-      }
-      else{
+          querystring.stringify({
+            access_token: access_token,
+            refresh_token: refresh_token
+          }));
+      } else {
         res.redirect('/#' +
-        querystring.stringify({
-          error: 'invalid_token'
-        }));
+          querystring.stringify({
+            error: 'invalid_token'
+          }));
       }
     });
   }
@@ -148,7 +155,6 @@ app.get('/callback', function(req, res){
 
 console.log('Listening to 8080');
 app.listen(8080);
-
 
 
 

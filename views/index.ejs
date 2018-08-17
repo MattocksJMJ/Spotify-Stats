@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
+
 <head>
   <meta charset='UTF-8'>
   <title>Spotify Stats</title>
@@ -7,6 +8,7 @@
   <link rel='stylesheet' type='text/css' href='/stylesheets/style.css'>
   <link rel='stylesheet' type='text/css' href='/stylesheets/page2.css'>
 </head>
+
 <body>
   <!-- Login screen -->
   <div id='logInScreenDiv' style='display:block;'>
@@ -66,45 +68,54 @@
     <!-- MIDDLE -->
     <div id='pg2' style='height:100%;width:100%;top:100%;position:absolute;background: linear-gradient(#fdfdaa, #F3EFE0);'>
       <div>
-      <div id='playerDiv' style='position:relative;top:36px;width:500px;display:block;margin:auto'>
-        <div id='imageContainer'style="width:100%;position:relative;">
-          <img src='/images/wavYYYYYYY.gif' style="max-width:500px;max-height:500px;">
+        <div id='playerDiv' style='position:relative;top:36px;width:500px;display:block;margin:auto'>
+          <div id='imageContainer' style="width:100%;position:relative;">
+            <img src='/images/wavYYYYYYY.gif' style="max-width:500px;max-height:500px;">
+          </div>
+          <div id='buttons' style="width:100px;height:20px;margin-left:50px;display:inline-flex;float:left;">
+            <!-- Functional buttons to pause, play and skip the song, change the volume and scrub along the timeline -->
+            <input type='submit' id='previousButton' value='❚◀' style='min-width:25px;min-height:25px;'>
+            <input type='submit' id='playButton' value="▶❚❚" style='min-width:25px;min-height:25px;'>
+            <input type='submit' id='nextButton' value='▶❚' style='min-width:25px;min-height:25px;'>
+            <input type="button" id='loveButton' value="🖤" style='min-width:25px;min-height:25px;'>
+            <div id='searchDiv'>
+              <input type="button" id='searchB' value="🔍" style='min-width:25px;min-height:25px;'>
+              <div id='search_popup'>
+                Search:&nbsp<input type='text' id='searchText' autocomplete="off"><br>
+                <ul id='results'>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div id='volDiv' style="display:inline-flex;float:right;margin-right:50px;height:20px;">
+            <input type="range" min='0' max='100' value='100' id='slider' style="position:relative; top:6px;">
+          </div>
+          <div id='currentPlayingDiv' style="display:block;margin-top:30px;">
+            <input type='text' id='currentPlayingTrackX' value='current song' style='min-width:20px;min-height:20px;' class='output' readonly>
+            <input type='text' id='currentPlayingTrackY' value='current song' style='min-width:20px;min-height:20px;' class='output' readonly>
+            <input type="range" min='0' max='' value='' id='sliderSong' style="">
+            <input type="text" value='' id='timeOfSong' class='output' readonly>
+          </div>
         </div>
-        <div id='buttons' style="width:100px;height:20px;margin-left:50px;display:inline-flex;float:left;">
-          <!-- Functional buttons to pause, play and skip the song, change the volume and scrub along the timeline -->
-          <input type='submit' id='previousButton'          value='❚◀'           style='min-width:20px;min-height:20px;'>
-          <input type='submit' id='nextButton'              value='▶❚'           style='min-width:20px;min-height:20px;'>
-          <input type='submit' id='playButton'              value='▶❚❚'          style='min-width:20px;min-height:20px;'>
-          <input type="button" id='loveButton' value="🖤"                        style='min-width:20px;min-height:20px;'>
-        </div>
-        <div id='volDiv' style="display:inline-flex;float:right;margin-right:50px;height:20px;">
-          <input type="range" min='0' max='100' value='100' id='slider' style="position:relative; top:6px;">
-        </div>
-        <div id='currentPlayingDiv' style="display:block;margin-top:30px;">
-          <input type='text'   id='currentPlayingTrackX'    value='current song' style='min-width:20px;min-height:20px;' class='output' readonly>
-          <input type='text'   id='currentPlayingTrackY'    value='current song' style='min-width:20px;min-height:20px;' class='output' readonly>
-          <input type="range" min='0' max='' value='' id='sliderSong' style="">
-          <input type="text" value='' id='timeOfSong' class='output' readonly>
-        </div>
-      </div>
-      <!-- <div id='albumCoverDiv' style="position:absolute;width:100%;bottom:12%;">
+        <!-- <div id='albumCoverDiv' style="position:absolute;width:100%;bottom:12%;">
       <img src='' id='albumCover' style='height:auto;width:auto;max-width:200px;max-height:200px;box-shadow: 4px 4px 8px 1px rgba(0,0,0,0.2);'>
     </div> -->
-    <div style="float:right;transform:translate(-80px, -380px)">
-    <div id='lovedListDiv'>
-      <ul id='lovedList'>
+        <div style="float:right;transform:translate(-80px, -380px)">
+          <div id='lovedListDiv'>
+            <ul id='lovedList'>
 
-      </ul>
+            </ul>
+          </div>
+        </div>
+        <div id='footer' style='position:absolute;bottom:0%;width:100%;background-color: #F3EFE0;'>
+          <button id='scrollU' style="margin:0;border:0;background:transparent;cursor:pointer;padding:0;">⇧</button>
+          <h4 style='margin:0;margin-bottom:5px;'>Jamie Mattocks</h4>
+        </div>
+      </div>
     </div>
   </div>
-    <div id='footer' style='position:absolute;bottom:0%;width:100%;background-color: #F3EFE0;'>
-      <button id='scrollU' style="margin:0;border:0;background:transparent;cursor:pointer;padding:0;">⇧</button>
-      <h4 style='margin:0;margin-bottom:5px;'>Jamie Mattocks</h4>
-    </div>
-  </div>
-</div>
-</div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type='text/javascript' src='/javascripts/scripts.js'></script>
+
 </html>
