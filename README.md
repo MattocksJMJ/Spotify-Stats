@@ -1,4 +1,4 @@
-# Node-JS-app-using-the-spotify-api
+# Spotify Stats
 ## An app which uses the spotify api in order to display a user's top artists and tracks.
 
 ## Added a small player which can:
